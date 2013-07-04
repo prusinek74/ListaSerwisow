@@ -1,0 +1,9 @@
+﻿<Application xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             x:Class="ListaSerwisow.App"
+             xmlns:vm ="clr-namespace:ListaSerwisow.ViewModels"
+             >
+    <Application.Resources>
+        <vm:ServiceLocator x:Key="Locator" />
+    </Application.Resources>
+</Application>
